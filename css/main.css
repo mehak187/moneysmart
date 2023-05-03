@@ -1,0 +1,88 @@
+/* =====================
+      basic
+==================== */
+:root{
+    --blue-main:#132b46;
+    --color2: #3deda4;
+    --color3:#ea2f5d;
+}
+
+.blue-bg {
+    background: var(--blue-main);
+}
+.blue-txt {
+    color: var(--blue-main);
+}
+.color2-bg {
+    background: var(--color2);
+}
+.color2-text {
+    color: var(--color2);
+}
+.btn-bg {
+    background:var(--color3);
+}
+.my-btn {
+    transition: all 0.3s;
+}
+.btn-bg:hover{
+    opacity: 0.8;
+}
+.fw-md {
+    font-weight: 600;
+}
+/* =====================
+      header
+==================== */
+header nav li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+header .logo {
+    max-width: 200px;
+}
+header nav li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+}
+.user-icon i {
+    background: var(--color2);
+}
+nav a:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+.hero-svg {
+    margin-left: 50%;
+}
+.hero-sec,
+.hero-main {
+    height: 452px;
+}
+.hero-img img{
+    object-fit: cover;
+}
+.hero-txt {
+    padding-left: 120px;
+}
+.finance-prod a {
+    transition: all 0.3s;
+}
+.finance-prod a:hover {
+    background: #f7f7f7;
+}
+.category img {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+@media screen and (max-width:767px){
+    .hero-txt {
+        padding-left: 0px;
+    }
+    .hero-sec,
+    .hero-main {
+        height: 100%;
+    }
+}
