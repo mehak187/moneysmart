@@ -3,6 +3,7 @@
 ==================== */
 :root{
     --blue-main:#132b46;
+    --blue-dark:#13273c;
     --color2: #3deda4;
     --color3:#ea2f5d;
 }
@@ -12,6 +13,9 @@
 }
 .blue-txt {
     color: var(--blue-main);
+}
+.blue-dark-bg {
+    color: var(--blue-dark);
 }
 .color2-bg {
     background: var(--color2);
@@ -58,7 +62,7 @@ nav a:hover {
 }
 .hero-sec,
 .hero-main {
-    height: 452px;
+    height: 480px;
 }
 .hero-img img{
     object-fit: cover;
@@ -94,6 +98,192 @@ nav a:hover {
 .contact input::placeholder{
     color: #000;
 }
+
+.sub-menu a {
+    color: #000
+}
+
+.sub-menu a:hover {
+    color: blue
+}
+
+header nav li .sub-menu a {
+    padding: 0
+}
+
+header nav li .sub-menu li {
+   margin: 4px 0
+}
+.sub-menu {
+    position: absolute;
+    background: #fff;
+    z-index: 3;
+    left: 0;
+    width: 100%;
+    top: 115px;
+    display: none
+}
+
+.card-menu:hover .card-sub-menu {
+    display: block
+}
+.loan-menu:hover .loan-sub-menu {
+    display: block
+}
+.accounts-menu:hover .accounts-sub-menu {
+    display: block
+}
+.investment-menu:hover .investment-sub-menu {
+    display: block
+}
+.blog-menu:hover .blog-sub-menu {
+    display: block
+}
+.rewards-menu:hover .rewards-sub-menu {
+    display: block
+}
+.rewards-menu:hover .rewards-sub-menu h3 {
+    text-transform: uppercase;
+}
+
+/* -------------------------------
+        google translator
+-------------------------------- */
+/* --------to remove automatic top frame of google translator------ */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+body {
+    top: 0px !important;
+}
+
+@media print {
+    #google_translate_element {
+        display: none;
+    }
+}
+
+/* ---------to hide-powered by google--- */
+.goog-logo-link {
+    display: none !important;
+}
+.goog-te-gadget {
+    height: 28px !important;
+    overflow: hidden;
+}
+/* To hide the suggestion box */
+#goog-gt-tt,
+.goog-te-balloon-frame {
+    display: none !important;
+}
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+.skiptranslate.goog-te-gadget{
+       display: flex !important;
+    flex-direction: column
+}
+.skiptranslate iframe{
+    visibility: hidden !important
+}
+
+.skiptranslate {
+    background: var(--blue-dark);
+     position: absolute;
+    right: 0
+}
+
+.skiptranslate {
+    position: absolute;
+   right: 20px;
+   top: 50%;
+   transform: translatey(-50%)
+}
+
+.main-p-translate {
+   position: relative;
+   background: var(--blue-dark);
+   height: 42px;
+}
+
+.goog-te-combo:focus {
+   outline: none !important;
+   box-shadow: none !important;
+   border: none !important
+}
+/* ---------end:: translator----- */
+.ex-small {
+    font-size: 12px;
+    padding: 0px 4px;
+}
+
+.exx-sm {
+    font-size: 12px;
+}
+.card-det-box {
+    background: rgba(255,209,0,.15);
+}
+
+
+
+.slick-prev  {
+    display: none;
+}
+.slick-next {
+    color: transparent;
+    background: transparent;
+    border: none;
+}
+.slick-next:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    /* border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff; */
+    /* add a chevron icon */
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #000 !important;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 999;
+  }
+  .slick-prev {
+    display: none !important;
+  }
+
+  .tab {
+    display: none;
+    height: 300px;
+  }
+  /* -tabs-custom styling---- */
+  #tabs.ui-widget.ui-widget-content {
+    border: none ;
+  }
+  #tabs .ui-widget-header {
+    background: none;
+    border: none;
+  }
+
+  #tabs .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border:none;
+    background:none;
+  }
+
+  #tabs .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited,
+  .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    color: #000;
+    padding: 0;
+  }
+/* -------------------------------
+       media queries
+-------------------------------- */
 @media screen and (max-width:767px){
     .hero-txt {
         padding-left: 0px;

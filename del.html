@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- ----jquery-ui----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+  <!-- Bootstrap 5 CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- ----slider css-- -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <style>
+    .tab {
+      display: none;
+      height: 300px;
+    }
+    
+  </style>
+  
+</head>
+<body>
+  <!-- <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">Tab 1</a></li>
+      <li><a href="#tabs-2">Tab 2</a></li>
+      <li><a href="#tabs-3">Tab 3</a></li>
+    </ul>
+    <div id="tabs-1" class="tab">Content for Tab 1</div>
+    <div id="tabs-2" class="tab">Content for Tab 2</div>
+    <div id="tabs-3" class="tab">Content for Tab 3</div>
+  </div> -->
+ 
+  <div id="tabs">
+    <ul class="slider">
+        <li><a href="#tabs-1">Tab 1</a></li>
+        <li><a href="#tabs-2">Tab 2</a></li>
+        <li><a href="#tabs-3">Tab 3</a></li>
+        <li><a href="#tabs-4">Tab 1</a></li>
+        <li><a href="#tabs-5">Tab 2</a></li>
+        <li><a href="#tabs-6">Tab 3</a></li>
+    </ul>
+    <div id="tabs-1" class="tab">Content for Tab 1</div>
+    <div id="tabs-2" class="tab">Content for Tab 2</div>
+    <div id="tabs-3" class="tab">Content for Tab 3</div>
+    <div id="tabs-4" class="tab">Content for Tab 1</div>
+    <div id="tabs-5" class="tab">Content for Tab 2</div>
+    <div id="tabs-6" class="tab">Content for Tab 3</div>
+</div>
+<script>
+    $(function() {
+      $("#tabs").tabs();
+      $('.slick-slider').slick({
+        autoplay: true,
+        arrows: true,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+</body>
+</html>

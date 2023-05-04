@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <!-- ----jquery-ui----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
   <!-- Bootstrap 5 CSS CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
   <!-- Font Awesome CDN -->
@@ -17,6 +19,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
   <!-- jQuery CDN -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 </head>
 
 <body>
@@ -681,454 +685,277 @@
   <!-- =======================
           hero section 
     ========================= -->
-  <div class="hero-sec blue-bg py-4 py-md-0">
-    <div class="hero-main px-4 px-md-0 position-relative d-flex flex-wrap align-items-center">
-      <div class="hero-txt col-md-6 py-3">
-        <h1 class="text-light fs-1 lh-sm fw-bold">Empowering You to Make Smarter Financial Decisions</h1>
-        <p class="fs-6 text-light mt-2">Get the best credit cards, loans and travel insurance in Hong Kong.</p>
-        <div class="d-lg-flex">
-          <a href="#"
-            class="d-block text-center px-5 py-3 s-5 fw-bold text-decoration-none rounded-2 mt-2 me-lg-3 btn-bg my-btn text-light">Sign
-            Up</a>
-          <a href="#"
-            class="d-block text-center px-5 py-3 s-5 fw-bold text-decoration-none rounded-2 mt-2 bg-white my-btn text-dark">Log
-            In</a>
+  <div class="hero2-sec blue-bg py-4 ">
+    <div class="hero px-4 px-md-0 position-relative ">
+       <div class="container">
+        <div class="d-flex align-items-center">
+            <a href="#" class="text-light me-3 text-decoration-none">Home</a>
+            <a href="#" class="text-light me-3 text-decoration-none" style="pointer-events:none">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            <a href="#" class="text-light me-3 text-decoration-none">Credit Cards</a>
         </div>
-      </div>
-      <div class="hero-img h-100 col-md-6">
-        <img src="img/home-hero.png" alt="" class="w-100 h-100">
-      </div>
-      <div class="hero-svg h-100 col-6 position-absolute d-none d-md-block">
-        <svg class="h-100" viewBox="0 0 295 456" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M 0 456 H 295 C 241 435 228 424 209 408 C 99 305 44.7604 130.617 40.6133 0 H 0 V 456 Z" fill="#132b46">
-          </path>
-        </svg>
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-       Finance products section 
-    ========================= -->
-  <div class="container py-4">
-    <div>
-      <h2 class="fs-2">Compare, choose and apply for the best personal finance products</h2>
-      <div class="row mt-4 finance-prod">
-        <div class="col-xl-2 col-lg-3 col-sm-4 col-6 my-3">
-          <a href="" class="shadow rounded-2 py-3 text-decoration-none d-flex flex-column justify-content-center">
-            <div>
-              <img src="img/prod-1.png" alt="" class="w-100">
-            </div>
-            <p class="text-center mt-3 text-dark ">Personal Loans</p>
-          </a>
-        </div>
-        <div class="col-xl-2 col-lg-3 col-sm-4 col-6 my-3">
-          <a href="" class="shadow rounded-1 py-3 text-decoration-none d-flex flex-column justify-content-center">
-            <div>
-              <img src="img/prod-2.png" alt="" class="w-100">
-            </div>
-            <p class="text-center mt-3 text-dark ">Credit Cards</p>
-          </a>
-        </div>
-        <div class="col-xl-2 col-lg-3 col-sm-4 col-6 my-3">
-          <a href="" class="shadow rounded-1 py-3 text-decoration-none d-flex flex-column justify-content-center">
-            <div>
-              <img src="img/prod-3.png" alt="" class="w-100">
-            </div>
-            <p class="text-center mt-3 text-dark ">Investments</p>
-          </a>
-        </div>
-        <div class="col-xl-2 col-lg-3 col-sm-4 col-6 my-3">
-          <a href="" class="shadow rounded-1 py-3 text-decoration-none d-flex flex-column justify-content-center">
-            <div>
-              <img src="img/prod-4.png" alt="" class="w-100">
-            </div>
-            <p class="text-center mt-3 text-dark ">Travel Insurance</p>
-          </a>
-        </div>
-        <div class="col-xl-2 col-lg-3 col-sm-4 col-6 my-3">
-          <a href="" class="shadow rounded-1 py-3 text-decoration-none d-flex flex-column justify-content-center">
-            <div>
-              <img src="img/prod-5.png" alt="" class="w-100">
-            </div>
-            <p class="text-center mt-3 text-dark ">Home Loans</p>
-          </a>
-        </div>
-        <div class="col-xl-2 col-lg-3 col-sm-4 col-6 my-3">
-          <a href="" class="shadow rounded-1 py-3 text-decoration-none d-flex flex-column justify-content-center">
-            <div>
-              <img src="img/prod-6.png" alt="" class="w-100">
-            </div>
-            <p class="text-center mt-3 text-dark ">Learn</p>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-    get instant reward section 
-    ========================= -->
-  <div class="container py-5">
-    <div class="row my-5">
-      <div class="col-md-6">
-        <img src="img/reward.png" class="w-100" alt="">
-      </div>
-      <div class="col-md-6 mt-4 mt-md-0">
-        <h2 class="fs-1">Create a MoneySmart account and get instant rewards for the things you love</h2>
-        <p class="fs-6 mt-3">Join for free and enjoy exclusive cashback deals on Google
-          Play™、Netflix、Nintendo、PlayStation Store、Steam & more. More exclusive offers to come!</p>
-        <a href="#"
-          class="mt-2 my-btn d-inline-block text-light text-decoration-none fw-bold fs-6 text-capitalize btn-bg py-3 px-4">Find
-          out how</a>
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-    top deals 
-    ========================= -->
-  <div class="container py-4">
-    <div>
-      <h2 class="fs-1 fw-bold">Don't Miss Our Top Deals</h2>
-      <div class="row mt-4 finance-prod">
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="shadow h-100 rounded-2 py-4 px-3 d-block text-decoration-none ">
-            <h3 class="fs-2 color2-text fw-md">
-              SCB Credit Cards: Up to $1,599 Rewards
-            </h3>
-            <p class="fs-6 text-dark"><i>Ending 31st May 2023</i> </p>
-            <div class="col-4 mt-4">
-              <img src="img/top-deal-1.webp" alt="" class="w-100 rounded-circle">
-            </div>
-            <p class="text-dark mt-3">Apply for SC Smart Card now via MoneySmart to get extra <b>HK$1,200 Apple Gift
-                Card or HK$1,200 Supermarket Gift Card or Shokz OpenRun Pro – EK Limited Edition S810 (Colour randomly
-                distributed) (Retail price: HK$1,599)</b></p>
-            <p class="text-dark mt-5">[Referral Program] After applying for the card, get extra <b>HK$300 supermarket
-                vouchers </b>by referring each relatives and friends to apply as well! The more you refer, the more
-              rewards you get!</p>
-            <a href="#"
-              class="mt-4 blue-txt text-primary text-decoration-none d-inline-block text-center py-1 px-3 border border-primary border-1 rounded-pill">See
-              more details</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="shadow h-100 rounded-2 py-4 px-3 d-block text-decoration-none ">
-            <h3 class="fs-2 color2-text fw-md">
-              Personal Loan: Up to $15,699 Rewards
-            </h3>
-            <p class="fs-6 text-dark"><i>Ending 31st May 2023</i> </p>
-            <div class="col-4 mt-4">
-              <img src="img/top-deal-2.webp" alt="" class="w-100 rounded-circle">
-            </div>
-            <p class="text-dark mt-3">May offer! Successfully apply for Citi Speedy Cash Loan during 1 - 31 May and
-              drawdown the specific loan products can enjoy <b>up to $15,699 Rewards !</b></p>
-            <a href="#"
-              class="mt-4 blue-txt text-primary text-decoration-none d-inline-block text-center py-1 px-3 border border-primary border-1 rounded-pill">Compare
-              Now</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="shadow h-100 rounded-2 py-4 px-3 d-block text-decoration-none ">
-            <h3 class="fs-2 color2-text fw-md">
-              Travel Insurance: Up to 35% Off
-            </h3>
-            <p class="fs-6 text-dark"><i>Ending 31st May 2023</i> </p>
-            <div class="col-4 mt-4">
-              <img src="img/top-deal-1.webp" alt="" class="w-100 rounded-circle">
-            </div>
-            <p class="text-dark mt-3">MoneySmart helps you compare 40+ Travel Insurance products in one go. Find the
-              Best Travel Insurance Plan with Covid-19 coverage, flight delay or luggage loss coverage, and enjoy <b>up
-                to 35% off Exclusive Discount or Supermarket e-coupon on specific products now!</b></p>
-            <a href="#"
-              class="mt-4 blue-txt text-primary text-decoration-none d-inline-block text-center py-1 px-3 border border-primary border-1 rounded-pill">
-              Start Comparing</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-    how to claim rewards section 
-    ========================= -->
-  <div class="container py-5">
-    <div class="row justify-content-center">
-      <div class="col-4">
-        <h2 class="fs-2 fw-md">How Do I Claim Rewards?</h2>
-      </div>
-      <div class="col-6">
-        <div class="video">
-          <iframe class="w-100" height="270" src="https://www.youtube.com/embed/lcuH0KDUeCY"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-    trusted loan section 
-    ========================= -->
-  <div class="container py-4 py-md-5">
-    <div class="row flex-column flex-md-row align-items-center">
-      <div class="col-md-6">
-        <h2 class="fs-1">Trusted Personal Loans</h2>
-        <p class="fs-6 mt-3">Providing you with carefully selected loan products from trusted financial institutions
-          without any hidden fees or costs.</p>
-        <a href="#"
-          class="mt-2 my-btn d-inline-block text-light text-decoration-none fw-bold fs-6 text-capitalize btn-bg py-3 px-4">Compare
-          Personal Loans</a>
-      </div>
-      <div class="col-md-6 mt-4 mt-md-0">
-        <img src="img/personal-loans.png" class="w-100" alt="">
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-   Compare Credit Cards section 
-    ========================= -->
-  <div class="container py-4 py-md-5">
-    <div class="row flex-column-reverse flex-md-row align-items-center">
-      <div class="col-md-6 mt-4 mt-md-0">
-        <img src="img/credit-card.png" class="w-100" alt="">
-      </div>
-      <div class="col-md-6">
-        <h2 class="fs-1">Compare Credit Cards</h2>
-        <p class="fs-6 mt-3">Covering all major credit cards to ensure that your spending needs are served, with easy
-          online applications and the best deals all in one place.</p>
-        <a href="#"
-          class="mt-2 my-btn d-inline-block text-light text-decoration-none fw-bold fs-6 text-capitalize btn-bg py-3 px-4">Compare
-          credit cards</a>
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-   Compare Travel Insurance section 
-    ========================= -->
-  <div class="container py-4 py-md-5">
-    <div class="row flex-column flex-md-row align-items-center">
-      <div class="col-md-6 mt-4 mt-md-0">
-        <h2 class="fs-1">Compare Travel Insurance</h2>
-        <p class="fs-6 mt-3">Compare Travel Insurance with coverage including Covid-19, trip cancellation and loss or
-          damage of baggage in one go.</p>
-        <a href="#"
-          class="mt-2 my-btn d-inline-block text-light text-decoration-none fw-bold fs-6 text-capitalize btn-bg py-3 px-4">Find
-          Travel Insurance</a>
-      </div>
-      <div class="col-md-6">
-        <img src="img/travel-insurrance.png" class="w-100" alt="">
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-     content offering section 
-    ========================= -->
-  <div class="container py-4 py-md-5">
-    <div class="row flex-column flex-md-row align-items-center">
-      <div class="col-md-6">
-        <img src="img/unbiased-opinions.png" class="w-100" alt="">
-      </div>
-      <div class="col-md-6 mt-4 mt-md-0 ps-5">
-        <h2 class="fs-2">Our Content Offers Unbiased Opinions</h2>
-        <p class="fs-6 mt-4">Serving you a wide range of articles, videos and other resources to equip you to handle
-          those important financial choices.</p>
-        <h3 class="fs-5">Content categories</h3>
-        <div class="row category">
-          <div class="col-4">
-            <div>
-              <img src="img/catg-1.png" alt="category">
-            </div>
-          </div>
-          <div class="col-4">
-            <div>
-              <img src="img/catg-2.png" alt="category">
-            </div>
-          </div>
-          <div class="col-4">
-            <div>
-              <img src="img/catg-3.png" alt="category">
-            </div>
-          </div>
-          <div class="col-4">
-            <div>
-              <img src="img/catg-4.png" alt="category">
-            </div>
-          </div>
-          <div class="col-4">
-            <div>
-              <img src="img/catg-5.png" alt="category">
-            </div>
-          </div>
-          <div class="col-4">
-            <div>
-              <img src="img/catg-6.png" alt="category">
-            </div>
-          </div>
-        </div>
-        <h3 class="fs-5">
-          Check out our extended content channels here:
-        </h3>
+        <h3 class="text-light mt-4">Best Credit Cards in Hong Kong</h3>
+        <p class="fs-6 text-light">Compare Hong Kong credit cards to earn most air miles, cashback and welcome offers, apply through MoneySmart to get extra rewards!
+            <br> Find out which credit cards suit your spending pattern the most to enjoy welcome offers, points, cash rebates, air miles, cash vouchers, gifts and many more in your daily spending. Apply for the credit card that gives you the best credit card offers!</p>
         <div class="d-flex">
-          <a href="#" class="text-dark me-3 fs-5">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" class="text-dark me-3 fs-5">
-            <i class="fab fa-youtube"></i>
-          </a>
-          <a href="#" class="text-dark me-3 fs-5">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="#" class="text-dark me-3 fs-5">
-            <i class="fab fa-instagram"></i>
-          </a>
+            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
+                Best credit cards
+            </a>
+            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
+                Welcome Offers
+            </a>
+            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
+                Cash Back
+            </a>
+            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
+               Air Miles
+            </a>
+            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
+                Online Shopping
+             </a>
+             <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle rounded-pill text-light text-decoration-none py-2 px-3 d-block fs-5 text-capitalize border border-1 border-light" data-bs-toggle="dropdown">
+                  More
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-dark" href="#">Octopus Card AAVS</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Annual Fee Waiver</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Bill Payment</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Dining</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Overseas Spending</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Debit Card</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">UnionPay</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Digital Wallets</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Business Card</a></li>
+                  <li><a class="dropdown-item text-dark" href="#">Student</a></li>
+                </ul>
+              </div>
         </div>
-      </div>
+       </div>
     </div>
   </div>
-  <!-- =======================
-    finance not stressful 
+   <!-- =======================
+         card descriptions
     ========================= -->
-  <div class="container py-5">
-    <div>
-      <h2 class="fs-1 fw-md">Personal finance doesn’t have to be stressful</h2>
-      <p class="fs-6">Stay on top of your finances - get tips and insights from our blog.</p>
-      <div class="row mt-4 finance-prod">
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="shadow h-100 rounded-2 py-4 px-4 d-block text-decoration-none ">
-            <h3 class="fs-5 fw-md">
-              Latest HKD Time Deposit Rates
-            </h3>
-            <div class="mt-4">
-              <img src="img/nt-stress-1.png" alt="" class="w-100">
-            </div>
-            <p class="fs-6 text-dark mt-5 pb-0">ZH version only.</p>
-            <a href="#" class="blue-txt text-primary text-decoration-none d-inline-block text-center">Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="shadow h-100 rounded-2 py-4 px-4 d-block text-decoration-none ">
-            <h3 class="fs-5 fw-md">
-              Guide to buying HK Disneyland Tickets
-            </h3>
-            <div class="mt-4">
-              <img src="img/nt-stress-2.png" alt="" class="w-100">
-            </div>
-            <p class="fs-6 text-dark mt-5 pb-0">ZH version only.</p>
-            <a href="#" class="blue-txt text-primary text-decoration-none d-inline-block text-center">Read More</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="shadow h-100 rounded-2 py-4 px-4 d-block text-decoration-none ">
-            <h3 class="fs-5 fw-md">
-              Guide to Financial Freedom (FIRE)
-            </h3>
-            <div class="mt-4">
-              <img src="img/nt-stress-3.png" alt="" class="w-100">
-            </div>
-            <p class="fs-6 text-dark mt-5 pb-0">ZH version only.</p>
-            <a href="#" class="blue-txt text-primary text-decoration-none d-inline-block text-center">Read More</a>
-          </div>
-        </div>
+    <section class="card-des py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <h6 class="text-capitalize fs-6">Refine your results</h6>
+                    <h2 class="mt-3 small">
+                        Card Association
+                    </h2>
+                    <div>
+                        <form action="">
+                            <div>
+                                <input id="ass-1" type="checkbox">
+                                <label for="ass-1">Mastercard</label>
+                            </div>
+                            <div>
+                                <input id="ass-2" type="checkbox">
+                                <label for="ass-2">Visa</label>
+                            </div>
+                            <div>
+                                <input id="ass-3" type="checkbox">
+                                <label for="ass-3">UnionPay</label>
+                            </div>
+                            <div>
+                                <input id="ass-4" type="checkbox">
+                                <label for="ass-4">American Express</label>
+                            </div>
+                            <div>
+                                <button type="reset" class=" text-primary small border-0 bg-transparent px-0 mt-2">Reset Filter</button>
+                            </div>
+                        </form>
+                    </div>
+                    <h2 class="mt-3 small">
+                        Providers
+                    </h2>
+                    <div>
+                        <form action="">
+                            <div>
+                                <input name="providers" type="radio" id="p1">
+                                <label for="p1">All providers</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p2">
+                                <label for="p2">AEON Credit Service</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p3">
+                                <label for="p3">Airwallex</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p4">
+                                <label for="p4">American Express</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p5">
+                                <label for="p5">Bank of China</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p6">
+                                <label for="p6">Bank of Communications</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p7">
+                                <label for="p7">BEA</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p8">
+                                <label for="p8">China Construction Bank(Asia)</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p9">
+                                <label for="p9">Citibank</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p10">
+                                <label for="p10">China CITIC Bank International</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p11">
+                                <label for="p11">Dah Sing Bank</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p12">
+                                <label for="p12">DBS</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p13">
+                                <label for="p13">Fubon Bank</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p14">
+                                <label for="p14">Hang Seng Bank</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p15">
+                                <label for="p15">HSBC</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p16">
+                                <label for="p16">ICBC</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p17">
+                                <label for="p17">livi</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p18">
+                                <label for="p18">Mox</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p19">
+                                <label for="p19">PrimeCredit</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p20">
+                                <label for="p20">sim</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p21">
+                                <label for="p21">Standard Chartered</label>
+                            </div>
+                            <div>
+                                <input name="providers" type="radio" id="p22">
+                                <label for="p22">WeLab Bank</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <p>We found 83 credit cards for you</p>
+                        <div class="dropdown">
+                            <button type="button" class="btn dropdown-toggle py-0 my-0 rounded-pill fs-6 text-decoration-none text-primary d-block fs-5 text-capitalize " data-bs-toggle="dropdown">
+                              Sort by recommended
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-dark" href="#">Recommended</a></li>
+                            </ul>
+                          </div>
+                    </div>
+                    <!-- ------------------------
+                         card-details 
+                    ------------------------- -->
+                    <div class="mt-3 row border border-1 py-3 px-0">
+                        <div class="col-2">
+                            <img src="img/card-img.webp" class="w-100" alt="card-img">
+                        </div>
+                        <div class="col-10">
+                            <div class="d-flex">
+                                <p class="bg-warning text-dark ex-small  me-2">
+                                    moneysmart exclusive
+                                </p>
+                                <p class="blue-bg text-light ex-small ">
+                                    2% foreign currency rebate
+                                </p>
+                            </div>
+                            <h2 class="fs-5 text-capitalize text-dark">
+                                Citi Cash Back Card
+                            </h2>
+                            <!-- -----------apply-------- -->
+                            <div class="d-flex align-items-start justify-content-between">
+                                <div class="row">
+                                    <div class="col-4">
+                                       <h3 class="fs-5 mb-0 pb-0">HK$120,000</h3>
+                                       <p class="exx-sm">Minimum Income Requirements</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 class="fs-5 mb-0 pb-0">2%</h3>
+                                       <p class="exx-sm">Cash back on local spend</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 class="fs-5 mb-0 pb-0">2%</h3>
+                                       <p class="exx-sm">Cash back on overseas spend</p>
+                                    </div>
+                                </div>
+                                <button type="submit"
+                                class="my-btn d-inline-block text-light text-decoration-none fw-bold small text-capitalize btn-bg py-2 px-3 border-0">
+                                Apply Now
+                              </button>
+                            </div>
+                            <!-- --------detail-box-------- -->
+                            <div class="mt-3 border-start border-warning border-3 card-det-box p-2">
+                                <div class="row">
+                                    <div class="col-10">
+                                        <p class="small">【Limited Time Offer】Register for designated Citi Credit Cards via MoneySmart, upon a spending amount of HK$1,000, you can earn a <b>HK$2,000 SHKP Malls Gift Card / [Newly Added!] HK$1,800 KKday Voucher/ HK$1,800 Apple Gift Card/ HK$1,800 Supermarket Voucher!</b></p>
+                                        <p class="mt-4 small">【HK$300 Referral Rewards】Refer your friends to apply for designated Citi Credit Cards online and activate the new cards+ with a spending amount of HKD1,000, you can receive an extra HK$300 Supermarket Voucher for every successful referral.</p>
+                                        <div class="d-flex">
+                                            <a class="text-primary exx-sm text-decoration-none me-3">Valid until 31 May 2023 </a>
+                                            <a class="more-det text-primary exx-sm text-decoration-none">See more details below</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
 
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-      contact
-    ========================= -->
-  <div class="contact blue-bg my-4">
-    <div class="container py-4 py-md-4">
-      <div class="row flex-column flex-md-row align-items-center">
-        <div class="col-md-6">
-          <img src="img/contact.png" class="w-100" alt="">
-        </div>
-        <div class="col-md-6 mt-4 mt-md-0 ps-4">
-          <h2 class="fs-1 fw-bold text-light">Get in the know.
-          </h2>
-          <p class="fs-3 lh-sm text-light">Subscribe to our newsletter for the latest articles and deals.
-          </p>
-          <form action="" class="mt-3">
-            <input type="email" placeholder="Email address"
-              class="py-2 bg-white text-dark px-3 fs-5 border border-1 border-primary w-100">
-            <button type="submit"
-              class="mt-4 my-btn d-inline-block text-light text-decoration-none fw-bold fs-6 text-capitalize btn-bg py-3 px-4 border-0">
-              Subscribe Now
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-    finance goals
-    ========================= -->
-  <div class="container py-4">
-    <div>
-      <h2 class="fs-2 fw-md">We want to help you spend more time enjoying your financial goals, and less time figuring
-        out how to get there.</h2>
-      <div class="row mt-4 finance-prod">
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="h-100 rounded-2 py-4  d-block text-decoration-none ">
-            <div class="col-8">
-              <img src="img/f-goals-1.png" alt="" class="w-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- -------slider---------- -->
+                            <div id="tabs">
+                                <ul class="slider">
+                                    <li><a href="#tabs-1">Tab 1</a></li>
+                                    <li><a href="#tabs-2">Tab 2</a></li>
+                                    <li><a href="#tabs-3">Tab 3</a></li>
+                                    <li><a href="#tabs-4">Tab 3</a></li>
+                                    <li><a href="#tabs-5">Tab 5</a></li>
+                                    <li><a href="#tabs-6">Tab 6</a></li>
+                                </ul>
+                                <div id="tabs-1" class="tab">Content for Tab 1</div>
+                                <div id="tabs-2" class="tab">Content for Tab 2</div>
+                                <div id="tabs-3" class="tab">Content for Tab 3</div>
+                                <div id="tabs-4" class="tab">Content for Tab 4</div>
+                                <div id="tabs-5" class="tab">Content for Tab 5</div>
+                                <div id="tabs-6" class="tab">Content for Tab 6</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h3 class="fs-5 fw-md mt-4 ">
-              Finance Simplified
-            </h3>
-            <p class="fs-6 text-dark mt-4 pb-0">We simplify the complex world of financial products in a relatable way,
-              so that all the confusing jargon and information doesn’t stop you from making the right choices with your
-              money.</p>
-          </div>
         </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="h-100 rounded-2 py-4  d-block text-decoration-none ">
-            <div class="col-8">
-              <img src="img/f-goals-2.png" alt="" class="w-100">
-            </div>
-            <h3 class="fs-5 fw-md mt-4 ">
-              Decisions And Applications Made Easy
-            </h3>
-            <p class="fs-6 text-dark mt-4 pb-0">Reaching your financial goals means choosing the right products to get
-              you there. We do the hard work of sorting through the various products in the market, so you don’t have
-              to.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 my-3">
-          <div class="h-100 rounded-2 py-4  d-block text-decoration-none ">
-            <div class="col-8">
-              <img src="img/f-goals-3.png" alt="" class="w-100">
-            </div>
-            <h3 class="fs-5 fw-md mt-4 ">
-              Deals That Add Value To Your Choices
-            </h3>
-            <p class="fs-6 text-dark mt-4 pb-0">We strive to bring you exclusive deals and promotions as we know the
-              value you get out of your financial choices is important.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <!-- =======================
-       brands
-    ========================= -->
-  <div class="container py-4 py-md-5">
-    <div class="row flex-column flex-md-row align-items-center">
-      <div class="col-md-6">
-        <img src="img/brands.png" class="w-100" alt="">
-      </div>
-      <div class="col-md-6 mt-4 mt-md-0 ps-4">
-        <h2 class="fs-2 fw-bold">We partner with all major financial providers and give you honest recommendations
-        </h2>
-        <div class="mt-4">
-          <h4 class="mt-3 fs-5 fw-bold">1,584,900 transactions</h4>
-          <p class="mb-0 pb-0">made to date</p>
-          <h4 class="mt-3 fs-5 fw-bold">87</h4>
-          <p class="mb-0 pb-0">banks and insurers</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    </section>
   <!-- =======================
          footer
     ========================= -->
@@ -1172,13 +999,42 @@
     </div>
   </div>
   <!-- Bootstrap 5 JS CDN (Optional) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Custom JS -->
   <script src="js/main.js"></script>
   <!-- ------slick-js--- -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(function() {
+          $("#tabs").tabs();
+        });
+      </script> 
+ <script>
+    $(document).ready(function(){
+  $('.slider').slick({
+    autoplay: false,
+    arrows: true,
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+
+</script>
 </body>
 
 </html>
