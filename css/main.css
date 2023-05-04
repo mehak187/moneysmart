@@ -77,6 +77,23 @@ nav a:hover {
     width: 100px;
     height: 100px;
 }
+
+.logo-ftr {
+    max-width: 220px;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.contact input::placeholder{
+    color: #000;
+}
 @media screen and (max-width:767px){
     .hero-txt {
         padding-left: 0px;
