@@ -24,20 +24,20 @@
 </head>
 
 <body>
-   <!-- --------Google translator----- -->
-<div class="main-p-translate ">
-  <div id="google_element" class="blue-dark-bg"></div>
-  <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate">
-  </script>
-  <script>
+  <!-- --------Google translator----- -->
+  <div class="main-p-translate ">
+    <div id="google_element" class="blue-dark-bg"></div>
+    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate">
+    </script>
+    <script>
       function loadGoogleTranslate() {
-          new google.translate.TranslateElement({
-              includedLanguages: 'en,zh-CN',
-              layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
-          }, 'google_element');
+        new google.translate.TranslateElement({
+          includedLanguages: 'en,zh-CN',
+          layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+        }, 'google_element');
       }
-  </script>
-</div>
+    </script>
+  </div>
   <!-- =======================
               header 
     ========================= -->
@@ -178,7 +178,7 @@
                 </div>
               </div>
             </li>
-             <!-- --------------------
+            <!-- --------------------
                 start::loan
                 ------------------- -->
             <li class="loan-menu py-4">
@@ -336,7 +336,7 @@
                 </div>
               </div>
             </li>
-             <!-- --------------------
+            <!-- --------------------
                 start::accounts
              ------------------- -->
             <li class="py-4 accounts-menu">
@@ -417,7 +417,7 @@
                 </div>
               </div>
             </li>
-             <!-- --------------------
+            <!-- --------------------
                 start::investment
              ------------------- -->
             <li class="py-4 investment-menu">
@@ -642,7 +642,7 @@
                 </div>
               </div>
             </li>
-             <!-- --------------------
+            <!-- --------------------
                 start::rewards
              ------------------- -->
             <li class="py-4 rewards-menu">
@@ -687,275 +687,485 @@
     ========================= -->
   <div class="hero2-sec blue-bg py-4 ">
     <div class="hero px-4 px-md-0 position-relative ">
-       <div class="container">
+      <div class="container">
         <div class="d-flex align-items-center">
-            <a href="#" class="text-light me-3 text-decoration-none">Home</a>
-            <a href="#" class="text-light me-3 text-decoration-none" style="pointer-events:none">
-                <i class="fas fa-chevron-right"></i>
-            </a>
-            <a href="#" class="text-light me-3 text-decoration-none">Credit Cards</a>
+          <a href="#" class="text-light me-3 text-decoration-none">Home</a>
+          <a href="#" class="text-light me-3 text-decoration-none" style="pointer-events:none">
+            <i class="fas fa-chevron-right"></i>
+          </a>
+          <a href="#" class="text-light me-3 text-decoration-none">Credit Cards</a>
         </div>
         <h3 class="text-light mt-4">Best Credit Cards in Hong Kong</h3>
-        <p class="fs-6 text-light">Compare Hong Kong credit cards to earn most air miles, cashback and welcome offers, apply through MoneySmart to get extra rewards!
-            <br> Find out which credit cards suit your spending pattern the most to enjoy welcome offers, points, cash rebates, air miles, cash vouchers, gifts and many more in your daily spending. Apply for the credit card that gives you the best credit card offers!</p>
-        <div class="d-flex">
-            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
-                Best credit cards
-            </a>
-            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
-                Welcome Offers
-            </a>
-            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
-                Cash Back
-            </a>
-            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
-               Air Miles
-            </a>
-            <a href="#" class="rounded-pill text-light text-decoration-none py-2 px-3 me-3 d-block fs-5 capitalize border border-1 border-light">
-                Online Shopping
-             </a>
-             <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle rounded-pill text-light text-decoration-none py-2 px-3 d-block fs-5 text-capitalize border border-1 border-light" data-bs-toggle="dropdown">
-                  More
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item text-dark" href="#">Octopus Card AAVS</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">Annual Fee Waiver</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">Bill Payment</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">Dining</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">Overseas Spending</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">Debit Card</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">UnionPay</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">Digital Wallets</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">Business Card</a></li>
-                  <li><a class="dropdown-item text-dark" href="#">Student</a></li>
-                </ul>
-              </div>
+        <p class="fs-6 text-light">Compare Hong Kong credit cards to earn most air miles, cashback and welcome offers,
+          apply through MoneySmart to get extra rewards!
+          <br> Find out which credit cards suit your spending pattern the most to enjoy welcome offers, points, cash
+          rebates, air miles, cash vouchers, gifts and many more in your daily spending. Apply for the credit card that
+          gives you the best credit card offers!
+        </p>
+        <div class="d-flex flex-wrap">
+          <a href="#"
+            class="rounded-pill text-light text-decoration-none py-2 px-3 my-2 me-3 d-block fs-5 capitalize border border-1 border-light active-card">
+            Best credit cards
+          </a>
+          <a href="#"
+            class="rounded-pill text-light text-decoration-none py-2 px-3 my-2 me-3 d-block fs-5 capitalize border border-1 border-light">
+            Welcome Offers
+          </a>
+          <a href="#"
+            class="rounded-pill text-light text-decoration-none py-2 px-3 my-2 me-3 d-block fs-5 capitalize border border-1 border-light">
+            Cash Back
+          </a>
+          <a href="#"
+            class="rounded-pill text-light text-decoration-none py-2 px-3 my-2 me-3 d-block fs-5 capitalize border border-1 border-light">
+            Air Miles
+          </a>
+          <a href="#"
+            class="rounded-pill text-light text-decoration-none py-2 px-3 my-2 me-3 d-block fs-5 capitalize border border-1 border-light">
+            Online Shopping
+          </a>
+          <div class="dropdown">
+            <button type="button"
+              class="btn dropdown-toggle rounded-pill text-light text-decoration-none py-2 px-3 my-2 d-block fs-5 text-capitalize border border-1 border-light"
+              data-bs-toggle="dropdown">
+              More
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-dark" href="#">Octopus Card AAVS</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Annual Fee Waiver</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Bill Payment</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Dining</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Overseas Spending</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Debit Card</a></li>
+              <li><a class="dropdown-item text-dark" href="#">UnionPay</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Digital Wallets</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Business Card</a></li>
+              <li><a class="dropdown-item text-dark" href="#">Student</a></li>
+            </ul>
+          </div>
         </div>
-       </div>
+      </div>
     </div>
   </div>
-   <!-- =======================
+  <!-- =======================
          card descriptions
     ========================= -->
-    <section class="card-des py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <h6 class="text-capitalize fs-6">Refine your results</h6>
-                    <h2 class="mt-3 small">
-                        Card Association
-                    </h2>
-                    <div>
-                        <form action="">
-                            <div>
-                                <input id="ass-1" type="checkbox">
-                                <label for="ass-1">Mastercard</label>
-                            </div>
-                            <div>
-                                <input id="ass-2" type="checkbox">
-                                <label for="ass-2">Visa</label>
-                            </div>
-                            <div>
-                                <input id="ass-3" type="checkbox">
-                                <label for="ass-3">UnionPay</label>
-                            </div>
-                            <div>
-                                <input id="ass-4" type="checkbox">
-                                <label for="ass-4">American Express</label>
-                            </div>
-                            <div>
-                                <button type="reset" class=" text-primary small border-0 bg-transparent px-0 mt-2">Reset Filter</button>
-                            </div>
-                        </form>
-                    </div>
-                    <h2 class="mt-3 small">
-                        Providers
-                    </h2>
-                    <div>
-                        <form action="">
-                            <div>
-                                <input name="providers" type="radio" id="p1">
-                                <label for="p1">All providers</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p2">
-                                <label for="p2">AEON Credit Service</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p3">
-                                <label for="p3">Airwallex</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p4">
-                                <label for="p4">American Express</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p5">
-                                <label for="p5">Bank of China</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p6">
-                                <label for="p6">Bank of Communications</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p7">
-                                <label for="p7">BEA</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p8">
-                                <label for="p8">China Construction Bank(Asia)</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p9">
-                                <label for="p9">Citibank</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p10">
-                                <label for="p10">China CITIC Bank International</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p11">
-                                <label for="p11">Dah Sing Bank</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p12">
-                                <label for="p12">DBS</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p13">
-                                <label for="p13">Fubon Bank</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p14">
-                                <label for="p14">Hang Seng Bank</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p15">
-                                <label for="p15">HSBC</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p16">
-                                <label for="p16">ICBC</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p17">
-                                <label for="p17">livi</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p18">
-                                <label for="p18">Mox</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p19">
-                                <label for="p19">PrimeCredit</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p20">
-                                <label for="p20">sim</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p21">
-                                <label for="p21">Standard Chartered</label>
-                            </div>
-                            <div>
-                                <input name="providers" type="radio" id="p22">
-                                <label for="p22">WeLab Bank</label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-9">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <p>We found 83 credit cards for you</p>
-                        <div class="dropdown">
-                            <button type="button" class="btn dropdown-toggle py-0 my-0 rounded-pill fs-6 text-decoration-none text-primary d-block fs-5 text-capitalize " data-bs-toggle="dropdown">
-                              Sort by recommended
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item text-dark" href="#">Recommended</a></li>
-                            </ul>
-                          </div>
-                    </div>
-                    <!-- ------------------------
-                         card-details 
-                    ------------------------- -->
-                    <div class="mt-3 row border border-1 py-3 px-0">
-                        <div class="col-2">
-                            <img src="img/card-img.webp" class="w-100" alt="card-img">
-                        </div>
-                        <div class="col-10">
-                            <div class="d-flex">
-                                <p class="bg-warning text-dark ex-small  me-2">
-                                    moneysmart exclusive
-                                </p>
-                                <p class="blue-bg text-light ex-small ">
-                                    2% foreign currency rebate
-                                </p>
-                            </div>
-                            <h2 class="fs-5 text-capitalize text-dark">
-                                Citi Cash Back Card
-                            </h2>
-                            <!-- -----------apply-------- -->
-                            <div class="d-flex align-items-start justify-content-between">
-                                <div class="row">
-                                    <div class="col-4">
-                                       <h3 class="fs-5 mb-0 pb-0">HK$120,000</h3>
-                                       <p class="exx-sm">Minimum Income Requirements</p>
-                                    </div>
-                                    <div class="col-4">
-                                        <h3 class="fs-5 mb-0 pb-0">2%</h3>
-                                       <p class="exx-sm">Cash back on local spend</p>
-                                    </div>
-                                    <div class="col-4">
-                                        <h3 class="fs-5 mb-0 pb-0">2%</h3>
-                                       <p class="exx-sm">Cash back on overseas spend</p>
-                                    </div>
-                                </div>
-                                <button type="submit"
-                                class="my-btn d-inline-block text-light text-decoration-none fw-bold small text-capitalize btn-bg py-2 px-3 border-0">
-                                Apply Now
-                              </button>
-                            </div>
-                            <!-- --------detail-box-------- -->
-                            <div class="mt-3 border-start border-warning border-3 card-det-box p-2">
-                                <div class="row">
-                                    <div class="col-10">
-                                        <p class="small">【Limited Time Offer】Register for designated Citi Credit Cards via MoneySmart, upon a spending amount of HK$1,000, you can earn a <b>HK$2,000 SHKP Malls Gift Card / [Newly Added!] HK$1,800 KKday Voucher/ HK$1,800 Apple Gift Card/ HK$1,800 Supermarket Voucher!</b></p>
-                                        <p class="mt-4 small">【HK$300 Referral Rewards】Refer your friends to apply for designated Citi Credit Cards online and activate the new cards+ with a spending amount of HKD1,000, you can receive an extra HK$300 Supermarket Voucher for every successful referral.</p>
-                                        <div class="d-flex">
-                                            <a class="text-primary exx-sm text-decoration-none me-3">Valid until 31 May 2023 </a>
-                                            <a class="more-det text-primary exx-sm text-decoration-none">See more details below</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-2">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- -------slider---------- -->
-                            <div id="tabs">
-                                <ul class="slider">
-                                    <li><a href="#tabs-1">Tab 1</a></li>
-                                    <li><a href="#tabs-2">Tab 2</a></li>
-                                    <li><a href="#tabs-3">Tab 3</a></li>
-                                    <li><a href="#tabs-4">Tab 3</a></li>
-                                    <li><a href="#tabs-5">Tab 5</a></li>
-                                    <li><a href="#tabs-6">Tab 6</a></li>
-                                </ul>
-                                <div id="tabs-1" class="tab">Content for Tab 1</div>
-                                <div id="tabs-2" class="tab">Content for Tab 2</div>
-                                <div id="tabs-3" class="tab">Content for Tab 3</div>
-                                <div id="tabs-4" class="tab">Content for Tab 4</div>
-                                <div id="tabs-5" class="tab">Content for Tab 5</div>
-                                <div id="tabs-6" class="tab">Content for Tab 6</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <section class="card-des pt-4 pb-5">
+    <div class="container-fluid px-4 px-xl-5">
+      <div class="row">
+        <div class="col-sm-4 col-lg-3">
+          <h6 class="text-capitalize fs-6">Refine your results</h6>
+          <h2 class="mt-3 small">
+            Card Association
+          </h2>
+          <div>
+            <form action="" class="d-flex flex-sm-column flex-wrap">
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" id="ass-1" type="checkbox">
+                <label for="ass-1">Mastercard</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" id="ass-2" type="checkbox">
+                <label for="ass-2">Visa</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" id="ass-3" type="checkbox">
+                <label for="ass-3">UnionPay</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" id="ass-4" type="checkbox">
+                <label for="ass-4">American Express</label>
+              </div>
+              <div class="d-block w-100">
+                <button type="reset" class=" text-primary small border-0 bg-transparent px-0 mt-sm-2">Reset Filter</button>
+              </div>
+            </form>
+          </div>
+          <h2 class="mt-3 small">
+            Providers
+          </h2>
+          <div>
+            <form action="" class="d-flex flex-sm-column flex-wrap">
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p1">
+                <label for="p1">All providers</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p2">
+                <label for="p2">AEON Credit Service</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p3">
+                <label for="p3">Airwallex</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p4">
+                <label for="p4">American Express</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p5">
+                <label for="p5">Bank of China</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p6">
+                <label for="p6">Bank of Communications</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p7">
+                <label for="p7">BEA</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p8">
+                <label for="p8">China Construction Bank(Asia)</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p9">
+                <label for="p9">Citibank</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p10">
+                <label for="p10">China CITIC Bank International</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p11">
+                <label for="p11">Dah Sing Bank</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p12">
+                <label for="p12">DBS</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p13">
+                <label for="p13">Fubon Bank</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p14">
+                <label for="p14">Hang Seng Bank</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p15">
+                <label for="p15">HSBC</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p16">
+                <label for="p16">ICBC</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p17">
+                <label for="p17">livi</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p18">
+                <label for="p18">Mox</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p19">
+                <label for="p19">PrimeCredit</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p20">
+                <label for="p20">sim</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p21">
+                <label for="p21">Standard Chartered</label>
+              </div>
+              <div class="d-flex align-items-start me-2 me-sm-0">
+                <input class="me-2 mt-2" name="providers" type="radio" id="p22">
+                <label for="p22">WeLab Bank</label>
+              </div>
+            </form>
+          </div>
         </div>
-    </section>
+        <div class="col-sm-8 col-lg-9 mt-3 mt-sm-0">
+          <div class="d-flex flex-wrap justify-content-between align-items-center">
+            <p class="mb-0 pb-0">We found 83 credit cards for you</p>
+            <div class="dropdown">
+              <button type="button"
+                class="btn dropdown-toggle py-0 px-0 my-0 rounded-pill fs-6 text-decoration-none text-primary d-block fs-5 text-capitalize "
+                data-bs-toggle="dropdown">
+                Sort by recommended
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-dark" href="#">Recommended</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- ------------------------
+                         card-details 
+          ------------------------- -->
+          <div class="mt-3 row border border-1 pt-3 pb-5 px-0 position-relative">
+            <div class="col-8 col-sm-6 col-md-4 col-lg-2">
+              <img src="img/card-img.webp" class="w-100" alt="card-img">
+            </div>
+            <div class="col-lg-10 mt-4 mt-lg-0">
+              <div class="d-flex flex-wrap">
+                <p class="bg-warning text-dark ex-small  me-2">
+                  moneysmart exclusive
+                </p>
+                <p class="blue-bg text-light ex-small ">
+                  2% foreign currency rebate
+                </p>
+              </div>
+              <h2 class="fs-5 text-capitalize text-dark">
+                Citi Cash Back Card
+              </h2>
+              <!-- -----------apply-------- -->
+              <div class="d-flex flex-wrap align-items-start justify-content-between">
+                <div class="row">
+                  <div class="col-6 col-sm-4">
+                    <h3 class="fs-5 mb-0 pb-0">HK$120,000</h3>
+                    <p class="exx-sm">Minimum Income Requirements</p>
+                  </div>
+                  <div class="col-6 col-sm-4">
+                    <h3 class="fs-5 mb-0 pb-0">2%</h3>
+                    <p class="exx-sm">Cash back on local spend</p>
+                  </div>
+                  <div class="col-6 col-sm-4">
+                    <h3 class="fs-5 mb-0 pb-0">2%</h3>
+                    <p class="exx-sm">Cash back on overseas spend</p>
+                  </div>
+                </div>
+                <button type="submit"
+                  class="my-btn d-inline-block text-light text-decoration-none fw-bold small text-capitalize btn-bg py-2 px-3 border-0">
+                  Apply Now
+                </button>
+              </div>
+              <!-- --------detail-box-------- -->
+              <div class="mt-3 border-start border-warning border-3 card-det-box p-2">
+                <div class="row align-items-center">
+                  <div class="col-md-9 col-lg-10">
+                    <p class="small">【Limited Time Offer】Register for designated Citi Credit Cards via MoneySmart, upon
+                      a spending amount of HK$1,000, you can earn a <b>HK$2,000 SHKP Malls Gift Card / [Newly Added!]
+                        HK$1,800 KKday Voucher/ HK$1,800 Apple Gift Card/ HK$1,800 Supermarket Voucher!</b></p>
+                    <p class="mt-4 small">【HK$300 Referral Rewards】Refer your friends to apply for designated Citi
+                      Credit Cards online and activate the new cards+ with a spending amount of HKD1,000, you can
+                      receive an extra HK$300 Supermarket Voucher for every successful referral.</p>
+                    <div class="d-flex">
+                      <a class="text-primary exx-sm text-decoration-none me-3">Valid until 31 May 2023 </a>
+                      <a class="more-det-btn text-primary exx-sm text-decoration-none">See more details below</a>
+                    </div>
+                  </div>
+                  <div class="col-5 col-md-3 col-lg-2 mt-4 mt-md-0">
+                    <img src="img/card-det-img.webp" alt="" class="w-100 rounded-circle">
+                  </div>
+                </div>
+              </div>
+              <!-- ---more-det-btn--- -->
+              <div class="more-det-btn more-btn2 position-absolute border px-3 py-2 border-1 rounded-pill">
+                <div class="d-flex align-items-center">
+                  <span class="me-2 more-con">More Details</span>
+                  <span class="me-2 less-con">Less Details</span>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+              </div>
+              <div class="more-det-content">
+                <!-- -------slider---------- -->
+                <div id="tabs" class="mt-4">
+                  <ul class="slider">
+                    <li class="fs-6"><a href="#tabs-1">Promotions</a></li>
+                    <li class="fs-6"><a href="#tabs-2">Key Features</a></li>
+                    <li class="fs-6"><a href="#tabs-3">Annual Interest Rate and Fees</a></li>
+                    <li class="fs-6"><a href="#tabs-4">Minimum Income Requirements</a></li>
+                    <li class="fs-6"><a href="#tabs-5">Card Association</a></li>
+                  </ul>
+                  <!-- -----------------------
+                      -tab content
+                   ------------------------ -->
+                  <div id="tabs-1" class="tab">
+                    <div>
+                      <h3 class="fs-6 text-capitalize fw-bold">are you eligible?</h3>
+                      <div class="d-flex align-items-start">
+                        <div class="bg-warning strap">
+                          !
+                        </div>
+                        <div>
+                          <ul class="">
+                            <li class="small">You are a new to bank card holder</li>
+                            <li class="small">Apply for a designated Citi credit card through MoneySmart and the
+                              application is approved
+                              on or before 30th June 2023</li>
+                            <li class="small">Must perform accumulated transactions of HK$1,000 within 30 days of card
+                              issuance</li>
+                            <li class="small">Please note: Before the application through the MoneySmart, please first
+                              Turn off the ad
+                              block； Clear the cookies； Don't use "incognito mode"； Turn off prevent cross-site tracking
+                              (Safari users)
+                              or Turn off "do not track function" (Chrome users)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <h3 class="fs-6 text-capitalize fw-bold">what you need to know</h3>
+                      </h3>
+                      <div>
+                        <div class="d-flex my-2">
+                          <div class="bg-warning strap me-2">
+                            1
+                          </div>
+                          <p class="small mb-0 pb-0">The “Qualifying Period” will be from 1st May 2023 to 31st May 2023
+                          </p>
+                        </div>
+                        <div class="d-flex my-2">
+                          <div class="bg-warning strap me-2">
+                            2
+                          </div>
+                          <p class="small mb-0 pb-0">Apply for a designated Citi credit card through MoneySmart (Citi
+                            Cash Back / Citi
+                            Rewards Mastercard / Citi Rewards UnionPay / Citi Prestige / Citi PremierMiles)</p>
+                        </div>
+                        <div class="d-flex my-2">
+                          <div class="bg-warning strap me-2">
+                            3
+                          </div>
+                          <p class="small mb-0 pb-0">Complete "My Financial Profile" in <a href="#"
+                              class="text-primary">MoneySmart
+                              Dashboard</a> and must submit the redemption form on or before 30 June, 2023</p>
+                        </div>
+                        <div class="d-flex my-2">
+                          <div class="bg-warning strap me-2">
+                            4
+                          </div>
+                          <p class="small mb-0 pb-0">An eligible new customer whose application is approved within the
+                            promotional
+                            period (1-31 May 2023) will receive up to HK$2,000 rewards and/ or a $300 referral bonus</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- -----------------------
+                   -tab content
+                    ------------------------ -->
+                  <div id="tabs-2" class="tab">
+                      <div>
+                        <ul class="">
+                          <li class="small">Cashback on local spending: 1% base rebate; 2% on global hotels and restaurants</li>
+                          <li class="small">【Must-have for overseas spending】Cashback on overseas spending: 2%</li>
+                          <li class="small">【Best Choice to add value on consumption voucher】1% rebate on e-wallet transaction (PayMe, WhChat Pay, AliPay, Octopus)
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+                  <!-- -----------------------
+                      -tab content
+                  ------------------------ -->
+                  <div id="tabs-3" class="tab">
+                    <div>
+                      <div class="d-flex justify-content-between py-2 border-bottom border-1">
+                        <p class="mb-0 pb-0 small">
+                          Annual Interest Rate
+                        </p>
+                        <p class="mb-0 pb-0 small">
+                          34.28%
+                        </p>
+                      </div>
+                      <div class="d-flex justify-content-between py-2 border-bottom border-1">
+                        <p class="mb-0 pb-0 small">
+                          Annual Principal Fee
+                        </p>
+                        <p class="mb-0 pb-0 small">
+                          HK$1,800
+                        </p>
+                      </div>
+                      <div class="d-flex justify-content-between py-2 border-bottom border-1">
+                        <p class="mb-0 pb-0 small">
+                          Supplementary Annual Fee
+                        </p>
+                        <p class="mb-0 pb-0 small">
+                          N/A
+                        </p>
+                      </div>
+                      <div class="d-flex justify-content-between py-2 border-bottom border-1">
+                        <p class="mb-0 pb-0 small">
+                          Fee Waiver
+                        </p>
+                        <p class="mb-0 pb-0 small">
+                          Yes
+                        </p>
+                      </div>
+                      <div class="d-flex justify-content-between py-2 border-bottom border-1">
+                        <p class="mb-0 pb-0 small">
+                          Minimum Monthly Repayment
+                        </p>
+                        <p class="mb-0 pb-0 small">
+                          1.5% of monthly balance + fees
+                        </p>
+                      </div>
+                      <div class="d-flex justify-content-between py-2 border-bottom border-1">
+                        <p class="mb-0 pb-0 small">
+                          Interest Free Period
+                        </p>
+                        <p class="mb-0 pb-0 small">
+                          Up to 58 days
+                        </p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!-- -----------------------
+                        -tab content
+                  ------------------------ -->
+                  <div id="tabs-4" class="tab">
+                    <div class="d-flex justify-content-between py-2 border-bottom border-1">
+                      <p class="mb-0 pb-0 small">
+                        Local Resident
+                      </p>
+                      <p class="mb-0 pb-0 small">
+                        HK$120,000
+                      </p>
+                    </div>
+                  </div>
+                  <!-- -----------------------
+                        -tab content
+                  ------------------------ -->
+                  <div id="tabs-5" class="tab">
+                    <div class="d-flex justify-content-between py-2 border-bottom border-1">
+                      <p class="mb-0 pb-0 small">
+                        Mastercard
+                      </p>
+                      <p class="mb-0 pb-0 small">
+                        <i class="fas fa-check text-success"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                 <!-- ------------card buttons grp------ -->
+                 <div class="d-sm-flex flex-wrap">
+                  <div class="d-flex flex-column my-1 justify-content-start me-2 py-2">
+                    <a href="#"
+                      class="d-block card-btn border border-1 border-primary text-center hov-opacity rounded-2 text-light bg-primary">
+                      <i class="fas fa-arrow-right small"></i>
+                    </a>
+                    <p class="mb-0 text-center pb-0 small text-primary">
+                      See all card details
+                    </p>
+                  </div>
+                  <div class="d-flex flex-column my-1 justify-content-center me-2 py-2">
+                    <a href="#"
+                      class="d-block card-btn border border-1 border-primary text-center hov-opacity rounded-2 text-primary">
+                      <i class="fas fa-file-alt small"></i>
+                    </a>
+                    <p class="mb-0 text-center pb-0 small text-primary">
+                      T&Cs
+                    </p>
+                  </div>
+                  <div class="d-flex flex-column my-1 justify-content-center me-2 py-2">
+                    <a href="#"
+                      class="d-block card-btn border border-1 border-primary text-center hov-opacity rounded-2 text-primary">
+                      <i class="fas fa-edit small"></i>
+                    </a>
+                    <p class="mb-0 text-center pb-0 small text-primary">
+                      Claim Form
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- =======================
          footer
     ========================= -->
@@ -1006,35 +1216,41 @@
   <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
   <script type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script>
-        $(function() {
-          $("#tabs").tabs();
-        });
-      </script> 
- <script>
-    $(document).ready(function(){
-  $('.slider').slick({
-    autoplay: false,
-    arrows: true,
-    slidesToShow: 4,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
-});
+  <script>
+    $(function () {
+      $("#tabs").tabs();
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('.slider').slick({
+        autoplay: false,
+        arrows: true,
+        slidesToShow: 4,
+        responsive: [
+          {
+            breakpoint: 1300,
+            settings: {
+              slidesToShow: 3
+            }
+          },
+          {
+            breakpoint: 1000,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
+          },
+        ]
+      });
+    });
 
-</script>
+  </script>
 </body>
 
 </html>

@@ -35,6 +35,26 @@
 .fw-md {
     font-weight: 600;
 }
+.exx-sm {
+    font-size: 12px;
+}
+  .hov-opacity {
+    transition: all 0.3s;
+  }
+  .hov-opacity:hover {
+    opacity: 0.8;
+  }
+  .strap {
+    padding: 6px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    min-width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 /* =====================
       header
 ==================== */
@@ -218,19 +238,20 @@ body {
     font-size: 12px;
     padding: 0px 4px;
 }
-
-.exx-sm {
-    font-size: 12px;
-}
+/* ----------cards---------- */
 .card-det-box {
     background: rgba(255,209,0,.15);
 }
-
-
-
-.slick-prev  {
-    display: none;
+.active-card {
+    background:hsla(0,0%,100%,.3);
 }
+
+.card-btn {
+    width: 140px;
+}
+
+/* -------slider and tabs------- */
+
 .slick-next {
     color: transparent;
     background: transparent;
@@ -250,17 +271,43 @@ body {
     font-weight: 900;
     color: #000 !important;
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: 33%;
+    transform: translateY(-33%);
+    right: -15px;
     z-index: 999;
   }
-  .slick-prev {
+  /* .slick-prev {
     display: none !important;
+  } */
+  .slick-prev {
+    color: transparent;
+    background: transparent;
+    border: none;
+}
+.slick-prev:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    /* border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff; */
+    /* add a chevron icon */
+    content: "\f053";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #000 !important;
+    position: absolute;
+    top: 33%;
+    transform: translateY(-33%);
+    left: -20px;
+    z-index: 999;
   }
-
   .tab {
     display: none;
-    height: 300px;
+  }
+  #tabs {
+    padding: 0 20px;
   }
   /* -tabs-custom styling---- */
   #tabs.ui-widget.ui-widget-content {
@@ -269,6 +316,10 @@ body {
   #tabs .ui-widget-header {
     background: none;
     border: none;
+    border-bottom: 1px solid #000;
+    /* padding-right: 9px;
+    padding-left: 9px; */
+
   }
 
   #tabs .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
@@ -280,6 +331,67 @@ body {
   .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
     color: #000;
     padding: 0;
+  }
+
+  /* #tabs .ui-state-active:before {
+    position: absolute;
+    content: '';
+    bottom: 2px;
+    width: 88%;
+    height: 2px;
+    background: red;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 3px solid red !important;
+  } */
+    #tabs .ui-state-active a{
+   color: blue !important;
+  }
+  #tabs .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    width: max-content !important;
+    padding: 0 10px;
+    font-size: 14px !important;
+  }
+  #tabs .ui-tabs .ui-tabs-panel{
+    padding: 0 !important;
+  }
+
+  .ui-tabs .ui-tabs-panel {
+    padding:20px 0 !important;
+  }
+/* -----------------end::Tabs------- */
+.more-det-btn {
+    cursor: pointer;
+}
+  .more-btn2 {
+    bottom: -20px;
+    background: #fff;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+
+  .more-det-content {
+    opacity: 0;
+    max-height: 0;
+  }
+
+  .more-det-content.active-det {
+    opacity: 1;
+    max-height: 100%;
+  }
+  .less-con {
+    display: none;
+  }
+  .less-con.active {
+    display: block;
+  }
+  .more-con.active {
+    display: none;
+  }
+  .more-con {
+    display: block;
   }
 /* -------------------------------
        media queries
@@ -293,3 +405,9 @@ body {
         height: 100%;
     }
 }
+@media screen and (max-width:576px){
+    .card-btn {
+        width: 100%;
+    }
+}
+
